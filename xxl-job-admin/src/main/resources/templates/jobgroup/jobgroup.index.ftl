@@ -23,16 +23,49 @@
 
 		<!-- Main content -->
 	    <section class="content">
-			
-			<div class="row">
+
+            <div class="row" id="search">
+                <#--<div class="col-xs-3">
+                    <div class="input-group">
+                        <span class="input-group-addon">AppName</span>
+                        <input type="text" class="form-control" id="appName" autocomplete="on" >
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <div class="input-group">
+                        <span class="input-group-addon">名称	</span>
+                        <input type="text" class="form-control" id="title" autocomplete="on" >
+                    </div>
+                </div>
+                <div class="col-xs-1">
+                    <div class="input-group">
+                        <select class="form-control" id="addressType" >
+                            <option value="-1" >${I18n.system_all}</option>
+                            <option value="0" >自动</option>
+                            <option value="1" >手动</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-xs-1">
+                    <button class="btn btn-block btn-info" id="searchBtn">${I18n.system_search}</button>
+                </div>-->
+
+                <div class="col-xs-1">
+                    <button class="btn btn-block btn-success add" type="button">${I18n.jobinfo_field_add}</button>
+                </div>
+            </div>
+
+            <div class="row">
 				<div class="col-xs-12">
 					<div class="box">
-			            <div class="box-header">
+
+			            <#--<div class="box-header">
 							<h3 class="box-title">${I18n.jobgroup_list}</h3>&nbsp;&nbsp;
                             <button class="btn btn-info btn-xs pull-left2 add" >${I18n.jobgroup_add}</button>
-						</div>
+						</div>-->
+
 			            <div class="box-body">
-			              	<table id="joblog_list" class="table table-bordered table-striped display" width="100%" >
+			              	<table id="jobgroup_list" class="table table-bordered table-striped display" width="100%" >
 				                <thead>
 					            	<tr>
                                         <#--<th name="id" >ID</th>-->
